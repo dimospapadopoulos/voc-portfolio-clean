@@ -1,0 +1,47 @@
+{
+  "teams": [
+    {
+      "id": "checkout_uk",
+      "name": "CES - Checkout",
+      "market": "UK",
+      "csv_pattern": "checkout_uk_*.csv",
+      "slack_channel": "#team-checkout-vocs",
+      "slack_webhook_env": "SLACK_WEBHOOK_CHECKOUT",
+      "context": "Checkout flow: date selection → seat selection → upsells → ticket protection → payment → order confirmation",
+      "priority_areas": ["payment", "seat selection", "upsells", "mobile checkout"],
+      "mouseflow_base_url": "https://app.mouseflow.com/recordings/",
+      "columns": {
+        "session_id": "Session ID",
+        "ces_score": "#1: How easy was it to complete your purchase?",
+        "date": "Submitted",
+        "feedback_1": "#2: What's the main reason for your score?",
+        "feedback_2": "#3: How could we improve the experience?"
+      }
+    },
+    {
+      "id": "catalogue_uk",
+      "name": "CES - Catalogue",
+      "market": "UK",
+      "csv_pattern": "catalogue_uk_*.csv",
+      "slack_channel": "#team-catalogue-vocs",
+      "slack_webhook_env": "SLACK_WEBHOOK_CATALOGUE",
+      "context": "Venue hubs, homepage, show pages, search and discovery",
+      "priority_areas": ["search", "show details", "venue navigation", "mobile experience"],
+      "mouseflow_base_url": "https://app.mouseflow.com/recordings/",
+      "columns": {
+        "session_id": "Session ID",
+        "ces_score": "#1: How easy was it to find an event?",
+        "date": "Submitted",
+        "feedback_1": "#2: What's the main reason for your score?",
+        "feedback_2": "#3: Additional feedback?",
+        "feedback_3": "#4: How could we improve the experience?"
+      }
+    }
+  ],
+  "global_settings": {
+    "run_schedule": "Monday 10:00 AM GMT",
+    "admin_email": "product@company.com",
+    "admin_slack_channel": "#vocs-admin",
+    "max_session_ids_per_issue": 3
+  }
+}
