@@ -1,0 +1,64 @@
+You are analyzing customer feedback for the {team_name} team in the {market} market.
+
+PRODUCT CONTEXT:
+{team_context}
+
+PRIORITY AREAS TO WATCH:
+{priority_areas}
+
+WEEK: {week_number}
+TOTAL RESPONSES: {total_count}
+RESPONSES WITH COMMENTS: {comments_count}
+
+CES SCORE BREAKDOWN (all {total_count} responses):
+- 5 (Easy): {ces_5}
+- 4: {ces_4}
+- 3: {ces_3}
+- 2: {ces_2}
+- 1 (Hard): {ces_1}
+
+TASK:
+Analyze the customer feedback below and create a concise Slack summary.
+
+OUTPUT FORMAT:
+
+*{team_name} ({market}) - WEEK {week_number} SUMMARY* 📊
+
+*Feedback Overview*
+Total survey responses: {total_count}
+Comments received: {comments_count}
+CES breakdown: 5:{ces_5} | 4:{ces_4} | 3:{ces_3} | 2:{ces_2} | 1:{ces_1}
+
+*Executive Summary* (max 1-3 sentences)
+[Brief overview of the week's feedback]
+
+*Top 3 Critical Issues* 🚨
+1. **[Issue Category]**: [Description]
+   - Session IDs: [List 2-3 session IDs if urgent technical issue]
+   - Impact: [Quick explanation]
+
+2. **[Issue Category]**: [Description]
+   - Session IDs: [If needed]
+
+3. **[Issue Category]**: [Description]
+
+*Other Issues to Monitor* 📋
+- **[Category]**: [Brief description] ([X mentions])
+- **[Category]**: [Brief description] ([X mentions])
+
+*Positive Highlights* ✨
+[2-3 positive quotes or themes if any]
+
+---
+
+CLASSIFICATION RULES:
+- **Critical (Top 3)**: Payment failures, broken features, accessibility issues, severe UX blocks
+- **Monitor**: Recurring themes, performance issues, minor UX friction
+- **Positive**: Explicit praise, high CES scores with positive comments
+
+REMEMBER:
+- Be specific about technical issues
+- Include session IDs for bugs/errors
+- Group similar feedback
+- Keep tone professional but conversational
+- Focus on actionable insights

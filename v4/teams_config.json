@@ -1,0 +1,61 @@
+{
+  "global_settings": {
+    "version": "4.0",
+    "max_rows_per_team": 500
+  },
+  "teams": [
+    {
+      "id": "checkout_uk",
+      "name": "CES - Checkout",
+      "market": "UK",
+      "csv_pattern": "checkout_uk_*.csv",
+      "slack_channel": "#product-checkout-feedback",
+      "slack_webhook_env": "SLACK_WEBHOOK_CHECKOUT",
+      "context": "Checkout flow: date selection → seat selection → add-ons → payment → confirmation",
+      "priority_areas": ["payment", "seat selection", "mobile checkout"],
+      "mouseflow_base_url": "https://analytics-platform.example.com/websites/XXXXXXXX/recordings/",
+      "columns": {
+        "session_id": "Session ID",
+        "ces_score": "#1: How easy was it buying tickets?",
+        "date": "Submitted",
+        "feedback_1": "#2: What's the main reason for your score?"
+      }
+    },
+    {
+      "id": "catalogue_uk",
+      "name": "CES - Catalogue",
+      "market": "UK",
+      "csv_pattern": "catalogue_uk_*.csv",
+      "slack_channel": "#product-catalogue-feedback",
+      "slack_webhook_env": "SLACK_WEBHOOK_CATALOGUE",
+      "context": "Event discovery: browse shows, search, filter by genre/venue/date",
+      "priority_areas": ["search", "filtering", "mobile UX"],
+      "mouseflow_base_url": "https://analytics-platform.example.com/websites/XXXXXXXX/recordings/",
+      "columns": {
+        "session_id": "Session ID",
+        "ces_score": "#1: How easy was it to find an event?",
+        "date": "Submitted",
+        "feedback_1": "#2: What's the main reason for your score?",
+        "feedback_2": "#3: How could we improve?"
+      }
+    },
+    {
+      "id": "account_uk",
+      "name": "CES - Account",
+      "market": "UK",
+      "csv_pattern": "account_uk_*.csv",
+      "slack_channel": "#product-account-feedback",
+      "slack_webhook_env": "SLACK_WEBHOOK_ACCOUNT",
+      "context": "Account management: view tickets, transfer tickets, update profile",
+      "priority_areas": ["ticket access", "transfers", "mobile app"],
+      "mouseflow_base_url": "https://analytics-platform.example.com/websites/XXXXXXXX/recordings/",
+      "columns": {
+        "session_id": "Session ID",
+        "ces_score": "#1: How easy was it navigating your account?",
+        "date": "Submitted",
+        "feedback_1": "#2: What's the main reason for your score?",
+        "feedback_2": "#3: How could we improve?"
+      }
+    }
+  ]
+}

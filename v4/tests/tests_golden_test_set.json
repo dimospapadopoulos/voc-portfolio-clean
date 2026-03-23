@@ -1,0 +1,667 @@
+{
+  "version": "1.0",
+  "created": "2026-03-23",
+  "description": "Hand-labeled customer feedback for VoCS regression testing. 50 examples across 4 teams covering severity 0-10, based on real W12 feedback patterns.",
+  
+  "checkout_uk": [
+    {
+      "id": "CHK_UK_001",
+      "ces_score": 1,
+      "session_id": "test_session_001",
+      "date": "2026-03-15",
+      "feedback": "[Reason 1]: Payment declined multiple times with valid card",
+      "expected": {
+        "severity": 10,
+        "category": "Payment",
+        "top_3": true,
+        "session_needed": true
+      }
+    },
+    {
+      "id": "CHK_UK_002",
+      "ces_score": 1,
+      "session_id": "test_session_002",
+      "date": "2026-03-15",
+      "feedback": "[Reason 1]: Payment failed repeatedly",
+      "expected": {
+        "severity": 10,
+        "category": "Payment",
+        "top_3": true,
+        "session_needed": true
+      }
+    },
+    {
+      "id": "CHK_UK_003",
+      "ces_score": 1,
+      "session_id": "test_session_003",
+      "date": "2026-03-16",
+      "feedback": "[Reason 1]: The tickets did not go on sale when they were supposed to",
+      "expected": {
+        "severity": 9,
+        "category": "Technical",
+        "top_3": true,
+        "session_needed": true
+      }
+    },
+    {
+      "id": "CHK_UK_004",
+      "ces_score": 1,
+      "session_id": "test_session_004",
+      "date": "2026-03-16",
+      "feedback": "[Reason 1]: It was easy until I had to input my billing details and I could not select my province (it was stuck on default)",
+      "expected": {
+        "severity": 9,
+        "category": "Technical",
+        "top_3": true,
+        "session_needed": true
+      }
+    },
+    {
+      "id": "CHK_UK_005",
+      "ces_score": 2,
+      "session_id": "test_session_005",
+      "date": "2026-03-17",
+      "feedback": "[Reason 1]: Seat map wouldn't load on mobile Chrome",
+      "expected": {
+        "severity": 8,
+        "category": "Mobile",
+        "top_3": true,
+        "session_needed": true
+      }
+    },
+    {
+      "id": "CHK_UK_006",
+      "ces_score": 1,
+      "session_id": "test_session_006",
+      "date": "2026-03-17",
+      "feedback": "[Reason 1]: The website is not intuitive and doesn't easily show the options for all days in which show is playing",
+      "expected": {
+        "severity": 7,
+        "category": "UX",
+        "top_3": false,
+        "session_needed": false
+      }
+    },
+    {
+      "id": "CHK_UK_007",
+      "ces_score": 2,
+      "session_id": "test_session_007",
+      "date": "2026-03-18",
+      "feedback": "[Reason 1]: website hard to navigate",
+      "expected": {
+        "severity": 6,
+        "category": "UX",
+        "top_3": false,
+        "session_needed": false
+      }
+    },
+    {
+      "id": "CHK_UK_008",
+      "ces_score": 1,
+      "session_id": "test_session_008",
+      "date": "2026-03-18",
+      "feedback": "[Reason 1]: because i needed to set up an account",
+      "expected": {
+        "severity": 6,
+        "category": "Account",
+        "top_3": false,
+        "session_needed": false
+      }
+    },
+    {
+      "id": "CHK_UK_009",
+      "ces_score": 3,
+      "session_id": "test_session_009",
+      "date": "2026-03-19",
+      "feedback": "[Reason 1]: Timer during checkout felt rushed",
+      "expected": {
+        "severity": 5,
+        "category": "UX",
+        "top_3": false,
+        "session_needed": false
+      }
+    },
+    {
+      "id": "CHK_UK_010",
+      "ces_score": 4,
+      "session_id": "test_session_010",
+      "date": "2026-03-19",
+      "feedback": "[Reason 1]: Good but ticket protection explanation was confusing",
+      "expected": {
+        "severity": 3,
+        "category": "UX",
+        "top_3": false,
+        "session_needed": false
+      }
+    },
+    {
+      "id": "CHK_UK_011",
+      "ces_score": 3,
+      "session_id": "test_session_011",
+      "date": "2026-03-20",
+      "feedback": "[Reason 1]: Checkout was slow to load",
+      "expected": {
+        "severity": 4,
+        "category": "Performance",
+        "top_3": false,
+        "session_needed": false
+      }
+    },
+    {
+      "id": "CHK_UK_012",
+      "ces_score": 5,
+      "session_id": "test_session_012",
+      "date": "2026-03-20",
+      "feedback": "[Reason 1]: Process and info great",
+      "expected": {
+        "severity": 0,
+        "category": "Positive",
+        "top_3": false,
+        "session_needed": false
+      }
+    },
+    {
+      "id": "CHK_UK_013",
+      "ces_score": 5,
+      "session_id": "test_session_013",
+      "date": "2026-03-21",
+      "feedback": "[Reason 1]: Because it was very easy to purchase the tickets and parking",
+      "expected": {
+        "severity": 0,
+        "category": "Positive",
+        "top_3": false,
+        "session_needed": false
+      }
+    },
+    {
+      "id": "CHK_UK_014",
+      "ces_score": 5,
+      "session_id": "test_session_014",
+      "date": "2026-03-21",
+      "feedback": "[Reason 1]: Website and checkout design was exceptional",
+      "expected": {
+        "severity": 0,
+        "category": "Positive",
+        "top_3": false,
+        "session_needed": false
+      }
+    },
+    {
+      "id": "CHK_UK_015",
+      "ces_score": 4,
+      "session_id": "test_session_015",
+      "date": "2026-03-22",
+      "feedback": "[Reason 1]: Simple process",
+      "expected": {
+        "severity": 0,
+        "category": "Positive",
+        "top_3": false,
+        "session_needed": false
+      }
+    }
+  ],
+  
+  "catalogue_uk": [
+    {
+      "id": "CAT_UK_001",
+      "ces_score": 1,
+      "session_id": "test_cat_001",
+      "date": "2026-03-15",
+      "feedback": "[Reason 1]: Images won't load on show pages | [Reason 2]: Tried multiple shows, all broken | [Improvement]: Fix image loading urgently",
+      "expected": {
+        "severity": 9,
+        "category": "Technical",
+        "top_3": true,
+        "session_needed": true
+      }
+    },
+    {
+      "id": "CAT_UK_002",
+      "ces_score": 1,
+      "session_id": "test_cat_002",
+      "date": "2026-03-15",
+      "feedback": "[Reason 1]: Page crashes when clicking venue hub | [Improvement]: Critical bug, can't browse shows",
+      "expected": {
+        "severity": 10,
+        "category": "Technical",
+        "top_3": true,
+        "session_needed": true
+      }
+    },
+    {
+      "id": "CAT_UK_003",
+      "ces_score": 2,
+      "session_id": "test_cat_003",
+      "date": "2026-03-16",
+      "feedback": "[Reason 1]: Search returned wrong shows | [Reason 2]: Expected musicals, got comedy | [Improvement]: Better search filtering",
+      "expected": {
+        "severity": 7,
+        "category": "Search",
+        "top_3": true,
+        "session_needed": false
+      }
+    },
+    {
+      "id": "CAT_UK_004",
+      "ces_score": 2,
+      "session_id": "test_cat_004",
+      "date": "2026-03-16",
+      "feedback": "[Reason 1]: Search autocomplete doesn't work | [Improvement]: Fix search suggestions",
+      "expected": {
+        "severity": 6,
+        "category": "Search",
+        "top_3": false,
+        "session_needed": true
+      }
+    },
+    {
+      "id": "CAT_UK_005",
+      "ces_score": 2,
+      "session_id": "test_cat_005",
+      "date": "2026-03-17",
+      "feedback": "[Reason 1]: Mobile menu hard to navigate | [Reason 2]: Buttons too small on phone | [Improvement]: Bigger tap targets on mobile",
+      "expected": {
+        "severity": 7,
+        "category": "Mobile",
+        "top_3": false,
+        "session_needed": false
+      }
+    },
+    {
+      "id": "CAT_UK_006",
+      "ces_score": 3,
+      "session_id": "test_cat_006",
+      "date": "2026-03-17",
+      "feedback": "[Reason 1]: Too many shows listed, overwhelming | [Improvement]: Add better filtering by date/genre",
+      "expected": {
+        "severity": 5,
+        "category": "UX",
+        "top_3": false,
+        "session_needed": false
+      }
+    },
+    {
+      "id": "CAT_UK_007",
+      "ces_score": 3,
+      "session_id": "test_cat_007",
+      "date": "2026-03-18",
+      "feedback": "[Reason 1]: Show descriptions too short | [Improvement]: Add more detail about shows",
+      "expected": {
+        "severity": 3,
+        "category": "Content",
+        "top_3": false,
+        "session_needed": false
+      }
+    },
+    {
+      "id": "CAT_UK_008",
+      "ces_score": 3,
+      "session_id": "test_cat_008",
+      "date": "2026-03-18",
+      "feedback": "[Reason 1]: Would be nice to filter by price range | [Improvement]: Add price filters",
+      "expected": {
+        "severity": 4,
+        "category": "Enhancement",
+        "top_3": false,
+        "session_needed": false
+      }
+    },
+    {
+      "id": "CAT_UK_009",
+      "ces_score": 4,
+      "session_id": "test_cat_009",
+      "date": "2026-03-19",
+      "feedback": "[Reason 1]: Easy to browse but wish there were reviews | [Improvement]: Add customer reviews",
+      "expected": {
+        "severity": 2,
+        "category": "Enhancement",
+        "top_3": false,
+        "session_needed": false
+      }
+    },
+    {
+      "id": "CAT_UK_010",
+      "ces_score": 4,
+      "session_id": "test_cat_010",
+      "date": "2026-03-19",
+      "feedback": "[Reason 1]: Venue photos are helpful | [Improvement]: Maybe add 360° views",
+      "expected": {
+        "severity": 1,
+        "category": "Enhancement",
+        "top_3": false,
+        "session_needed": false
+      }
+    },
+    {
+      "id": "CAT_UK_011",
+      "ces_score": 5,
+      "session_id": "test_cat_011",
+      "date": "2026-03-20",
+      "feedback": "[Reason 1]: Found my show immediately | [Reason 2]: Venue info was helpful | [Improvement]: Perfect as is",
+      "expected": {
+        "severity": 0,
+        "category": "Positive",
+        "top_3": false,
+        "session_needed": false
+      }
+    },
+    {
+      "id": "CAT_UK_012",
+      "ces_score": 5,
+      "session_id": "test_cat_012",
+      "date": "2026-03-20",
+      "feedback": "[Reason 1]: Love the venue 3D tour feature! | [Improvement]: Add more venues with this",
+      "expected": {
+        "severity": 0,
+        "category": "Positive",
+        "top_3": false,
+        "session_needed": false
+      }
+    },
+    {
+      "id": "CAT_UK_013",
+      "ces_score": 5,
+      "session_id": "test_cat_013",
+      "date": "2026-03-21",
+      "feedback": "[Reason 1]: Great selection of shows | [Reason 2]: Easy to navigate | [Improvement]: Nothing",
+      "expected": {
+        "severity": 0,
+        "category": "Positive",
+        "top_3": false,
+        "session_needed": false
+      }
+    },
+    {
+      "id": "CAT_UK_014",
+      "ces_score": 2,
+      "session_id": "test_cat_014",
+      "date": "2026-03-21",
+      "feedback": "[Reason 1]: Loading is slow | [Reason 2]: Takes 5+ seconds per page | [Improvement]: Speed up the site",
+      "expected": {
+        "severity": 6,
+        "category": "Performance",
+        "top_3": false,
+        "session_needed": false
+      }
+    },
+    {
+      "id": "CAT_UK_015",
+      "ces_score": 1,
+      "session_id": "test_cat_015",
+      "date": "2026-03-22",
+      "feedback": "[Reason 1]: Can't filter by wheelchair accessible seats | [Improvement]: Accessibility filtering is broken",
+      "expected": {
+        "severity": 8,
+        "category": "Accessibility",
+        "top_3": true,
+        "session_needed": true
+      }
+    }
+  ],
+  
+  "account_uk": [
+    {
+      "id": "ACC_UK_001",
+      "ces_score": 1,
+      "session_id": "test_acc_001",
+      "date": "2026-03-15",
+      "feedback": "[Reason 1]: I can't find my tickets | [Improvement]: Show my tickets",
+      "expected": {
+        "severity": 10,
+        "category": "Technical",
+        "top_3": true,
+        "session_needed": true
+      }
+    },
+    {
+      "id": "ACC_UK_002",
+      "ces_score": 1,
+      "session_id": "test_acc_002",
+      "date": "2026-03-15",
+      "feedback": "[Reason 1]: Can't access my tickets | [Improvement]: Fix ticket access",
+      "expected": {
+        "severity": 10,
+        "category": "Technical",
+        "top_3": true,
+        "session_needed": true
+      }
+    },
+    {
+      "id": "ACC_UK_003",
+      "ces_score": 1,
+      "session_id": "test_acc_003",
+      "date": "2026-03-16",
+      "feedback": "[Reason 1]: I've got events and the app says I have none | [Improvement]: Actually show what I've booked for?",
+      "expected": {
+        "severity": 10,
+        "category": "Technical",
+        "top_3": true,
+        "session_needed": true
+      }
+    },
+    {
+      "id": "ACC_UK_004",
+      "ces_score": 1,
+      "session_id": "test_acc_004",
+      "date": "2026-03-16",
+      "feedback": "[Reason 1]: Not easy to transfer tickets when I used what is suggested as your official resale partner | [Improvement]: Make it easy to transfer tickets with your official partner",
+      "expected": {
+        "severity": 9,
+        "category": "Integration",
+        "top_3": true,
+        "session_needed": false
+      }
+    },
+    {
+      "id": "ACC_UK_005",
+      "ces_score": 1,
+      "session_id": "test_acc_005",
+      "date": "2026-03-17",
+      "feedback": "[Reason 1]: Can't find accessible booking | [Improvement]: Add a link for accessible booking",
+      "expected": {
+        "severity": 8,
+        "category": "Accessibility",
+        "top_3": true,
+        "session_needed": false
+      }
+    },
+    {
+      "id": "ACC_UK_006",
+      "ces_score": 1,
+      "session_id": "test_acc_006",
+      "date": "2026-03-17",
+      "feedback": "[Reason 1]: Can't input my email | [Improvement]: Fix email field",
+      "expected": {
+        "severity": 9,
+        "category": "Technical",
+        "top_3": true,
+        "session_needed": true
+      }
+    },
+    {
+      "id": "ACC_UK_007",
+      "ces_score": 2,
+      "session_id": "test_acc_007",
+      "date": "2026-03-18",
+      "feedback": "[Reason 1]: Password reset link doesn't work | [Improvement]: Fix password reset email",
+      "expected": {
+        "severity": 7,
+        "category": "Account",
+        "top_3": false,
+        "session_needed": false
+      }
+    },
+    {
+      "id": "ACC_UK_008",
+      "ces_score": 3,
+      "session_id": "test_acc_008",
+      "date": "2026-03-18",
+      "feedback": "[Reason 1]: Hard to find order history | [Improvement]: Make past orders easier to find",
+      "expected": {
+        "severity": 5,
+        "category": "UX",
+        "top_3": false,
+        "session_needed": false
+      }
+    },
+    {
+      "id": "ACC_UK_009",
+      "ces_score": 4,
+      "session_id": "test_acc_009",
+      "date": "2026-03-19",
+      "feedback": "[Reason 1]: Would like push notifications for events | [Improvement]: Add event reminders",
+      "expected": {
+        "severity": 2,
+        "category": "Enhancement",
+        "top_3": false,
+        "session_needed": false
+      }
+    },
+    {
+      "id": "ACC_UK_010",
+      "ces_score": 5,
+      "session_id": "test_acc_010",
+      "date": "2026-03-19",
+      "feedback": "[Reason 1]: Ease | [Improvement]: Nothing",
+      "expected": {
+        "severity": 0,
+        "category": "Positive",
+        "top_3": false,
+        "session_needed": false
+      }
+    },
+    {
+      "id": "ACC_UK_011",
+      "ces_score": 5,
+      "session_id": "test_acc_011",
+      "date": "2026-03-20",
+      "feedback": "[Reason 1]: I found the site easy to use and I am not the most technologically minded | [Improvement]: Keep it simple",
+      "expected": {
+        "severity": 0,
+        "category": "Positive",
+        "top_3": false,
+        "session_needed": false
+      }
+    },
+    {
+      "id": "ACC_UK_012",
+      "ces_score": 3,
+      "session_id": "test_acc_012",
+      "date": "2026-03-21",
+      "feedback": "[Reason 1]: App is a bit slow to load tickets | [Improvement]: Faster loading",
+      "expected": {
+        "severity": 4,
+        "category": "Performance",
+        "top_3": false,
+        "session_needed": false
+      }
+    }
+  ],
+  
+  "das_uk": [
+    {
+      "id": "DAS_UK_001",
+      "ces_score": 1,
+      "session_id": "test_das_001",
+      "date": "2026-03-15",
+      "feedback": "[Reason 1]: Order never arrived at my seat | [Improvement]: Track orders or notify when delayed",
+      "expected": {
+        "severity": 10,
+        "category": "Fulfillment",
+        "top_3": true,
+        "session_needed": true
+      }
+    },
+    {
+      "id": "DAS_UK_002",
+      "ces_score": 1,
+      "session_id": "test_das_002",
+      "date": "2026-03-16",
+      "feedback": "[Reason 1]: Payment declined but money was taken from my account | [Improvement]: Fix payment processing",
+      "expected": {
+        "severity": 10,
+        "category": "Payment",
+        "top_3": true,
+        "session_needed": true
+      }
+    },
+    {
+      "id": "DAS_UK_003",
+      "ces_score": 2,
+      "session_id": "test_das_003",
+      "date": "2026-03-17",
+      "feedback": "[Reason 1]: Couldn't find my seat section in the menu | [Improvement]: Better seat location search",
+      "expected": {
+        "severity": 6,
+        "category": "UX",
+        "top_3": false,
+        "session_needed": false
+      }
+    },
+    {
+      "id": "DAS_UK_004",
+      "ces_score": 3,
+      "session_id": "test_das_004",
+      "date": "2026-03-18",
+      "feedback": "[Reason 1]: Menu photos would be helpful | [Improvement]: Add images of food/drinks",
+      "expected": {
+        "severity": 3,
+        "category": "Enhancement",
+        "top_3": false,
+        "session_needed": false
+      }
+    },
+    {
+      "id": "DAS_UK_005",
+      "ces_score": 4,
+      "session_id": "test_das_005",
+      "date": "2026-03-19",
+      "feedback": "[Reason 1]: Good but delivery took longer than expected | [Improvement]: Better time estimates",
+      "expected": {
+        "severity": 4,
+        "category": "Fulfillment",
+        "top_3": false,
+        "session_needed": false
+      }
+    },
+    {
+      "id": "DAS_UK_006",
+      "ces_score": 5,
+      "session_id": "test_das_006",
+      "date": "2026-03-20",
+      "feedback": "[Reason 1]: Easy | [Improvement]: Nothing",
+      "expected": {
+        "severity": 0,
+        "category": "Positive",
+        "top_3": false,
+        "session_needed": false
+      }
+    },
+    {
+      "id": "DAS_UK_007",
+      "ces_score": 5,
+      "session_id": "test_das_007",
+      "date": "2026-03-21",
+      "feedback": "[Reason 1]: So easy | [Improvement]: Nothing",
+      "expected": {
+        "severity": 0,
+        "category": "Positive",
+        "top_3": false,
+        "session_needed": false
+      }
+    },
+    {
+      "id": "DAS_UK_008",
+      "ces_score": 5,
+      "session_id": "test_das_008",
+      "date": "2026-03-22",
+      "feedback": "[Reason 1]: Easy to use and useful | [Improvement]: Nothing",
+      "expected": {
+        "severity": 0,
+        "category": "Positive",
+        "top_3": false,
+        "session_needed": false
+      }
+    }
+  ]
+}

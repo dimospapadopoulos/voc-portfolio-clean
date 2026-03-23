@@ -1,0 +1,12 @@
+@echo off
+REM VoCS V4 Runner - Windows Task Scheduler
+REM Copy this to run_vocs.bat and update paths
+
+REM Change to script directory
+cd /d "C:\path\to\your\vocs_project"
+
+REM Run with system Python (adjust path as needed)
+python vocs_multi_team.py
+
+REM Optional: Add logging
+REM python vocs_multi_team.py >> logs\vocs_%date:~-4,4%%date:~-7,2%%date:~-10,2%.log 2>&1
